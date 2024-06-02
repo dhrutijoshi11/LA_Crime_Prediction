@@ -20,35 +20,35 @@ The primary objective is to accurately forecast crime occurrences across Los Ang
 
 ## Exploratory Data Analysis (EDA)
 
-1. **Top 10 Crime Distribution**
+1. **Top 10 Crime Distribution.**
 
    Most of the crimes were related to theft, burglary, and violent offenses, with vehicle theft being the most common.
 
    ![Crime Distribution](Images/topcrimetypes.png)
 
-2. **Top Areas with higher and lower crime rate.
+2. **Top Areas with higher and lower crime rate.**
 
    I have found that top 5 area which has higher crime rates are central, 77th Street, pacific, southwest, and Hollywood.
 
    ![Crime Distribution](Images/area.png)
 
-3.	**Number of Crime Incidents w.r.t Victims gender.
+3.	**Number of Crime Incidents w.r.t Victims gender.**
 
    Not much difference between the victims’ gender and can’t say anything on unknown gender so, can’t say which gender is most affected.
 
    ![Crime Distribution](Images/Victimgender.png)
 
-4.	**Number of crime incidents over 12 months.
+4.	**Number of crime incidents over 12 months.**
 
    [Crime Distribution](Images/crimeovermonth.png)
    
-6.	**Is there any pattern of the number of crime incidents over the hour?
+6.	**Is there any pattern of the number of crime incidents over the hour?**
 
    Yes, the number of crime incidents is the highest at noon (the lunch time). The second peak is around the dinner time.
 
    ![Crime Distribution](Images/patternoverhours.png)
 
-6.	**Analysis of 'Age':
+6.	**Analysis of 'Age':**
 
   	It shows the number of the top five descents over ages. There are two exceptional peaks: age 50 for White and age 35 for Unknown. (More explanations are waiting for experts whp    know more about crimes)
 
@@ -60,7 +60,7 @@ The primary objective is to accurately forecast crime occurrences across Los Ang
    As for the numbers of different genders over ages, two observations:
    There is a separating line at age 35. Below this age, the number of crime incidents against female is higher than that of male. There are two exceptional peaks for male: age 35    and 50. There is a gender code 'H' (82 crime incidents), which is not mentioned in the official website.
 
-7.	**Distribution of top 3 Victim Descents by Crime Area.
+7.	**Distribution of top 3 Victim Descents by Crime Area.**
 
    ![Crime Distribution](Images/distribution.png)
 
