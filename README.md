@@ -67,10 +67,10 @@ The primary objective is to accurately forecast crime occurrences across Los Ang
    Looking at the top 3 vulnerable demographics in LA, Latinx, White and Black communities has most suffered in the highest crime occurring areas of Central, 77th Street and          Pacific. This could also be that there are lesser White people living in these two areas. White victims are highest in the 77th street, Pacific areas. Again, this could be         because these areas have higher white population. Similarly, areas such as 77th street, Mission, Newton, Rampart, Foothill and Hollenbeck have a higher number of Latinx victims    than the other descents.
 
 
-##SARIMAX Model Implementation
+## SARIMAX Model Implementation
 Implemented SARIMAX models with grid search to optimize performance. The model (1, 0, 2)x(2, 0, [1], 12) fit a crime count dataset (January 2020 to July 2022) with AIC: 520.602 and BIC: 530.640. Coefficients for AR and MA parts suggest influences on predictions, with non-significant seasonal components possibly requiring simplification.
 
-###Performance Analysis
+### Performance Analysis
 Evaluated using RMSE, the final value of 656.30 shows improvement over baselines but indicates room for enhancement. Future steps include gathering more data and ongoing evaluation for stronger predictions.
 
 
