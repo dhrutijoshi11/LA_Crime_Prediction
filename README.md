@@ -67,15 +67,11 @@ The primary objective is to accurately forecast crime occurrences across Los Ang
    Looking at the top 3 vulnerable demographics in LA, Latinx, White and Black communities has most suffered in the highest crime occurring areas of Central, 77th Street and          Pacific. This could also be that there are lesser White people living in these two areas. White victims are highest in the 77th street, Pacific areas. Again, this could be         because these areas have higher white population. Similarly, areas such as 77th street, Mission, Newton, Rampart, Foothill and Hollenbeck have a higher number of Latinx victims    than the other descents.
 
 
-The implementation involved building several SARIMAX models with varying parameters, refined through grid search techniques to optimize performance.
+##SARIMAX Model Implementation
+Implemented SARIMAX models with grid search to optimize performance. The model (1, 0, 2)x(2, 0, [1], 12) fit a crime count dataset (January 2020 to July 2022) with AIC: 520.602 and BIC: 530.640. Coefficients for AR and MA parts suggest influences on predictions, with non-significant seasonal components possibly requiring simplification.
 
-The SARIMAX model results summarize the fit for a seasonal ARIMA model with the configuration (1, 0, 2)x(2, 0, [1], 12) applied to a crime count dataset with 31 observations spanning from January 2020 to July 2022. The model's AIC and BIC values are 520.602 and 530.640, respectively, suggesting the relative quality of the model fit given the number of parameters used. The coefficients for the AR and MA parts at different lags indicate how past values and errors influence the model predictions. Notably, the P-values for many of the seasonal components are very high, indicating they may not be statistically significant and could potentially be simplified or removed. The diagnostics, including a Ljung-Box test with a p-value of 0.29 and a Jarque-Bera test with a p-value of 0.59, suggest that the residuals are fairly random, and the model does not suffer from major issues like autocorrelation or non-normality, although the effectiveness of the seasonal components should be reevaluated.
-
-##Performance Analysis
-Evaluation Metrics: The models were evaluated using Root Mean Squared Error (RMSE) to quantify the prediction accuracy. The final RMSE was significantly lower than the baseline models, indicating an improvement in predictive accuracy. The Root Mean Squared Error of the forecasts is: 656.30.
-The Root Mean Squared Error (RMSE) of 656 indicates that while our model performs adequately, there is considerable room for improvement. So, in next steps we can gather more data which can help to make a stronger prediction and we can use incoming data to evaluate the model’s forecasting performance.
-
-
+###Performance Analysis
+Evaluated using RMSE, the final value of 656.30 shows improvement over baselines but indicates room for enhancement. Future steps include gathering more data and ongoing evaluation for stronger predictions.
 
 
 
