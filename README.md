@@ -62,7 +62,7 @@ The primary objective is to accurately forecast crime occurrences across Los Ang
 
 7.	**Distribution of top 3 Victim Descents by Crime Area.**
 
-   ![Crime Distribution](Images/distribution.png)
+   ![Crime Distribution](Images/distibution.png)
 
    Looking at the top 3 vulnerable demographics in LA, Latinx, White and Black communities has most suffered in the highest crime occurring areas of Central, 77th Street and          Pacific. This could also be that there are lesser White people living in these two areas. White victims are highest in the 77th street, Pacific areas. Again, this could be         because these areas have higher white population. Similarly, areas such as 77th street, Mission, Newton, Rampart, Foothill and Hollenbeck have a higher number of Latinx victims    than the other descents.
 
